@@ -17,7 +17,9 @@ namespace Signtitik.Droid
     {
         protected override void OnResume()
         {
+            
             base.OnResume();
+
             StartActivity(typeof(MainActivity));
         }
     }

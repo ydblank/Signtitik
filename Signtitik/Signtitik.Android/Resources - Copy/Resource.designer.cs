@@ -16829,70 +16829,67 @@ namespace Signtitik.Droid
 			public const int Sorry_we_dont_have_this_is_in_our_store = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int splashscreen = 2131165382;
+			public const int T = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int T = 2131165383;
+			public const int Temperature = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int Temperature = 2131165384;
+			public const int test_custom_background = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int test_custom_background = 2131165385;
+			public const int thank_you = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int thank_you = 2131165386;
+			public const int The_money_you_gave_is_not_enough = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int The_money_you_gave_is_not_enough = 2131165387;
+			public const int This_is_too_expensive_Can_you_lower_the_price_a_little_bit = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int This_is_too_expensive_Can_you_lower_the_price_a_little_bit = 2131165388;
+			public const int This_product_is_fresh = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int This_product_is_fresh = 2131165389;
+			public const int tooltip_frame_dark = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int tooltip_frame_dark = 2131165390;
+			public const int tooltip_frame_light = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int tooltip_frame_light = 2131165391;
+			public const int Try_checking_the_other_stores = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int Try_checking_the_other_stores = 2131165392;
+			public const int U = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int U = 2131165393;
+			public const int V = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int V = 2131165394;
+			public const int violet = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int violet = 2131165395;
+			public const int W = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int W = 2131165396;
+			public const int What_are_you_looking_for = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int What_are_you_looking_for = 2131165397;
+			public const int white = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int white = 2131165398;
+			public const int X = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int X = 2131165399;
+			public const int Y = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int Y = 2131165400;
+			public const int yellow = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int yellow = 2131165401;
+			public const int youre_welcome = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int youre_welcome = 2131165402;
-			
-			// aapt resource value: 0x7F0700DB
-			public const int Z = 2131165403;
+			public const int Z = 2131165402;
 			
 			static Drawable()
 			{
@@ -20417,9 +20414,6 @@ namespace Signtitik.Droid
 			
 			// aapt resource value: 0x7F0F0138
 			public const int ShapeAppearance_MaterialComponents_Tooltip = 2131689784;
-			
-			// aapt resource value: 0x7F0F02FB
-			public const int splashscreen = 2131690235;
 			
 			// aapt resource value: 0x7F0F014D
 			public const int TestStyleWithLineHeight = 2131689805;
