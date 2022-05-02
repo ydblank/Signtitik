@@ -10,8 +10,8 @@
         </Grid.RowDefinitions>
         <Label Text="SIGNTITIK" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="48"/>
         <StackLayout Grid.Row="1">
-            <Button Text="Seller" WidthRequest="256" HorizontalOptions="CenterAndExpand"/>
-            <Button Text="Buyer" WidthRequest="256" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Seller" Clicked="LandingButtonClicked" WidthRequest="256" HorizontalOptions="CenterAndExpand"/>
+            <Button Text="Buyer" Clicked="LandingButtonClicked" WidthRequest="256" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </Grid>
 

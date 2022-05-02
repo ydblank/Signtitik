@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Signtitik.Pages;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -13,6 +14,13 @@ namespace Signtitik
         public MainPage()
         {
             InitializeComponent();
+        }
+
+        private async void LandingButtonClicked(object sender, EventArgs e)
+        {
+            Button button = sender as Button;
+            MenuPage menuPage = new MenuPage();
+            await Navigation.PushModalAsync(menuPage);
         }
     }
 }
