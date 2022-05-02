@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Signtitik.Models
 {
-    class SignModel : ObservableObject
+    public class SignModel : ObservableObject
     {
         string _name { get; set; }
         string _category { get; set; }
