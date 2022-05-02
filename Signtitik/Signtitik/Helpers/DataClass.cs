@@ -38,9 +38,28 @@ namespace Signtitik.Helpers
             new SignModel() { Name = "Y", Category = "Alphabet", Gif = "Y.gif", Icon = "" },
             new SignModel() { Name = "Z", Category = "Alphabet", Gif = "Z.gif", Icon = "" },
 
-            // Color Category
+            // Colors Category
+            new SignModel() { Name = "Colors", Category = "Color",  Gif = "colors.gif", Icon = "" },
             new SignModel() { Name = "Red", Category = "Color", Gif = "red.gif", Icon = "" },
             new SignModel() { Name = "Yellow", Category = "Color",  Gif = "yellow.gif", Icon = "" },
+            new SignModel() { Name = "Blue", Category = "Color",  Gif = "blue.gif", Icon = "" },
+            new SignModel() { Name = "Orange", Category = "Color",  Gif = "orange.gif", Icon = "" },
+            new SignModel() { Name = "Green", Category = "Color",  Gif = "green.gif", Icon = "" },
+            new SignModel() { Name = "Brown", Category = "Color",  Gif = "brown.gif", Icon = "" },
+            new SignModel() { Name = "Violet", Category = "Color",  Gif = "violet.gif", Icon = "" },
+            new SignModel() { Name = "Black", Category = "Color",  Gif = "black.gif", Icon = "" },
+            new SignModel() { Name = "White", Category = "Color",  Gif = "white.gif", Icon = "" },
+
+            // Greetings Category
+            new SignModel() { Name = "Hi", Category = "Greetings", Gif = "hi.gif", Icon = "" },
+            new SignModel() { Name = "Hello", Category = "Greetings", Gif = "hello.gif", Icon = "" },
+            new SignModel() { Name = "Good Morning", Category = "Greetings", Gif = "good_morning.gif", Icon = "" },
+            new SignModel() { Name = "Good Noon", Category = "Greetings", Gif = "good_noon.gif", Icon = "" },
+            new SignModel() { Name = "Good Afternoon", Category = "Greetings", Gif = "good_afternoon.gif", Icon = "" },
+            new SignModel() { Name = "Good Evening", Category = "Greetings", Gif = "good_evening.gif", Icon = "" },
+            new SignModel() { Name = "Please", Category = "Greetings", Gif = "please.gif", Icon = "" },
+            new SignModel() { Name = "Thank You", Category = "Greetings", Gif = "thank_you.gif", Icon = "" },
+            new SignModel() { Name = "Your Welcom", Category = "Greetings", Gif = "your_welcome.gif", Icon = "" },
         };
     }
 }
