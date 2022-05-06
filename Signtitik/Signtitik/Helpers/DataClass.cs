@@ -58,7 +58,7 @@ namespace Signtitik.Helpers
             new SignModel() { Name = "Good Evening", Category = "Greetings", Gif = "good_evening.gif", Icon = "" },
             new SignModel() { Name = "Please", Category = "Greetings", Gif = "please.gif", Icon = "" },
             new SignModel() { Name = "Thank You", Category = "Greetings", Gif = "thank_you.gif", Icon = "" },
-            new SignModel() { Name = "Your Welcom", Category = "Greetings", Gif = "your_welcome.gif", Icon = "" },
+            new SignModel() { Name = "Your Welcome", Category = "Greetings", Gif = "your_welcome.gif", Icon = "" },
         };
     }
 }
