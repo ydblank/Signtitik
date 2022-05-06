@@ -22,9 +22,11 @@ namespace Signtitik.Pages
             await Navigation.PopModalAsync(true);
         }
 
-        private void ItemTapped(object sender, EventArgs e)
+        private async void ItemTapped(object sender, EventArgs e)
         {
-
+            StackLayout stackLayout = sender as StackLayout;
+            CategoryPage categoryPage = new CategoryPage(stackLayout.ClassId);
+            await Navigation.PushModalAsync(categoryPage);
         }
     }
 }

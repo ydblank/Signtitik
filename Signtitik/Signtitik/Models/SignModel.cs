@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Signtitik.Models
+namespace Signtitik
 {
     public class SignModel : ObservableObject
     {
