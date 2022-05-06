@@ -5,7 +5,7 @@
              x:Class="Signtitik.Pages.SignPage">
     <ContentPage.Content>
         <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="10">
-            <ffimageloading:CachedImage Source="{Binding Gif}" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Aspect="AspectFill"/>
+            <ffimageloading:CachedImage Source="{Binding Gif}" Aspect="AspectFill" WidthRequest="{Binding Converter={StaticResource scale}, ConverterParameter='width=300'}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=300'}"/>
             <Label Text="{Binding Name}" FontSize="24" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
