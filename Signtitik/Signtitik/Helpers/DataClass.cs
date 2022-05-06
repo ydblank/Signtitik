@@ -1,5 +1,4 @@
-﻿using Signtitik.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
@@ -8,7 +7,7 @@ namespace Signtitik.Helpers
 {
     public static class DataClass
     {
-        public static ObservableCollection<SignModel> signModels = new ObservableCollection<SignModel>()
+        public static ObservableCollection<SignModel> signList = new ObservableCollection<SignModel>()
         {
             // Alphabet Category
             new SignModel() { Name = "A", Category = "Alphabet", Gif = "A.gif", Icon = "" },
@@ -39,16 +38,16 @@ namespace Signtitik.Helpers
             new SignModel() { Name = "Z", Category = "Alphabet", Gif = "Z.gif", Icon = "" },
 
             // Colors Category
-            new SignModel() { Name = "Colors", Category = "Color",  Gif = "colors.gif", Icon = "" },
-            new SignModel() { Name = "Red", Category = "Color", Gif = "red.gif", Icon = "" },
-            new SignModel() { Name = "Yellow", Category = "Color",  Gif = "yellow.gif", Icon = "" },
-            new SignModel() { Name = "Blue", Category = "Color",  Gif = "blue.gif", Icon = "" },
-            new SignModel() { Name = "Orange", Category = "Color",  Gif = "orange.gif", Icon = "" },
-            new SignModel() { Name = "Green", Category = "Color",  Gif = "green.gif", Icon = "" },
-            new SignModel() { Name = "Brown", Category = "Color",  Gif = "brown.gif", Icon = "" },
-            new SignModel() { Name = "Violet", Category = "Color",  Gif = "violet.gif", Icon = "" },
-            new SignModel() { Name = "Black", Category = "Color",  Gif = "black.gif", Icon = "" },
-            new SignModel() { Name = "White", Category = "Color",  Gif = "white.gif", Icon = "" },
+            new SignModel() { Name = "Colors", Category = "Colors",  Gif = "colors.gif", Icon = "" },
+            new SignModel() { Name = "Red", Category = "Colors", Gif = "red.gif", Icon = "" },
+            new SignModel() { Name = "Yellow", Category = "Colors",  Gif = "yellow.gif", Icon = "" },
+            new SignModel() { Name = "Blue", Category = "Colors",  Gif = "blue.gif", Icon = "" },
+            new SignModel() { Name = "Orange", Category = "Colors",  Gif = "orange.gif", Icon = "" },
+            new SignModel() { Name = "Green", Category = "Colors",  Gif = "green.gif", Icon = "" },
+            new SignModel() { Name = "Brown", Category = "Colors",  Gif = "brown.gif", Icon = "" },
+            new SignModel() { Name = "Violet", Category = "Colors",  Gif = "violet.gif", Icon = "" },
+            new SignModel() { Name = "Black", Category = "Colors",  Gif = "black.gif", Icon = "" },
+            new SignModel() { Name = "White", Category = "Colors",  Gif = "white.gif", Icon = "" },
 
             // Greetings Category
             new SignModel() { Name = "Hi", Category = "Greetings", Gif = "hi.gif", Icon = "" },

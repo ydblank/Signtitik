@@ -15,7 +15,7 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition Height="auto"/>
                 </Grid.RowDefinitions>
-                <StackLayout>
+                <StackLayout ClassId="Colors">
                     <Frame BackgroundColor="Gray">
                         <Image HeightRequest="80" Aspect="AspectFill"/>
                     </Frame>
@@ -24,7 +24,7 @@
                         <TapGestureRecognizer Tapped="ItemTapped"/>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                <StackLayout Grid.Column="1">
+                <StackLayout Grid.Column="1" ClassId="Temperature">
                     <Frame BackgroundColor="Gray">
                         <Image HeightRequest="80" Aspect="AspectFill"/>
                     </Frame>
@@ -33,7 +33,7 @@
                         <TapGestureRecognizer Tapped="ItemTapped"/>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                <StackLayout Grid.Row="1">
+                <StackLayout Grid.Row="1" ClassId="Size">
                     <Frame BackgroundColor="Gray">
                         <Image HeightRequest="80" Aspect="AspectFill"/>
                     </Frame>
@@ -42,7 +42,7 @@
                         <TapGestureRecognizer Tapped="ItemTapped"/>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                <StackLayout Grid.Column="1" Grid.Row="1">
+                <StackLayout Grid.Column="1" Grid.Row="1" ClassId="Numbers">
                     <Frame BackgroundColor="Gray">
                         <Image HeightRequest="80" Aspect="AspectFill"/>
                     </Frame>
@@ -51,7 +51,7 @@
                         <TapGestureRecognizer Tapped="ItemTapped"/>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                <StackLayout Grid.Row="2">
+                <StackLayout Grid.Row="2" ClassId="Greetings">
                     <Frame BackgroundColor="Gray">
                         <Image HeightRequest="80" Aspect="AspectFill"/>
                     </Frame>
@@ -60,7 +60,7 @@
                         <TapGestureRecognizer Tapped="ItemTapped"/>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                <StackLayout Grid.Column="1" Grid.Row="2">
+                <StackLayout Grid.Column="1" Grid.Row="2" ClassId="Phrases">
                     <Frame BackgroundColor="Gray">
                         <Image HeightRequest="80" Aspect="AspectFill"/>
                     </Frame>
