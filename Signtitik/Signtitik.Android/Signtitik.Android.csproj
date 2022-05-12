@@ -160,13 +160,28 @@
     <AndroidResource Include="Resources\mipmap-anydpi-v26\ic_launcher_round.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Are_there_any_variations_for_this_product.gif" />
+    <AndroidResource Include="Resources\drawable-mdpi\splashscreen.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\B.gif" />
+    <AndroidResource Include="Resources\drawable-hdpi\splashscreen.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Big.gif" />
+    <AndroidResource Include="Resources\drawable-xhdpi\splashscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxhdpi\splashscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable-xxxhdpi\splashscreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\are_there_any_variations_for_this_product.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\b.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\big.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\black.gif" />
@@ -178,43 +193,43 @@
     <AndroidResource Include="Resources\drawable\brown.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\C.gif" />
+    <AndroidResource Include="Resources\drawable\c.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Can_I_buy_this_in_pieces.gif" />
+    <AndroidResource Include="Resources\drawable\can_i_buy_this_in_pieces.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Can_you_please_put_the_things_that_I_bought_inside_the_ecobag.gif" />
+    <AndroidResource Include="Resources\drawable\can_you_please_put_the_things_that_i_bought_inside_the_ecobag.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Cold.gif" />
+    <AndroidResource Include="Resources\drawable\cold.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\colors.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\D.gif" />
+    <AndroidResource Include="Resources\drawable\d.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Did_you_bring_your_own_ecobag.gif" />
+    <AndroidResource Include="Resources\drawable\did_you_bring_your_own_ecobag.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Do_you_have_another_size_for_this.gif" />
+    <AndroidResource Include="Resources\drawable\do_you_have_another_size_for_this.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Do_you_have_this_product.gif" />
+    <AndroidResource Include="Resources\drawable\do_you_have_this_product.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Do_you_still_want_to_buy_this.gif" />
+    <AndroidResource Include="Resources\drawable\do_you_still_want_to_buy_this.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\E.gif" />
+    <AndroidResource Include="Resources\drawable\e.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\F.gif" />
+    <AndroidResource Include="Resources\drawable\f.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\G.gif" />
+    <AndroidResource Include="Resources\drawable\g.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\good_afternoon.gif" />
@@ -232,7 +247,7 @@
     <AndroidResource Include="Resources\drawable\green.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\H.gif" />
+    <AndroidResource Include="Resources\drawable\h.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\hello.gif" />
@@ -241,136 +256,136 @@
     <AndroidResource Include="Resources\drawable\hi.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Hot.gif" />
+    <AndroidResource Include="Resources\drawable\hot.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\How_much_does_this_product_cost.gif" />
+    <AndroidResource Include="Resources\drawable\how_much_does_this_product_cost.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\How_much_is_this_per_kilo.gif" />
+    <AndroidResource Include="Resources\drawable\how_much_is_this_per_kilo.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\I.gif" />
+    <AndroidResource Include="Resources\drawable\i.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\In_which_store_can_I_find_this_product.gif" />
+    <AndroidResource Include="Resources\drawable\in_which_store_can_I_find_this_product.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Is_this_all_you_want_to_buy.gif" />
+    <AndroidResource Include="Resources\drawable\is_this_all_you_want_to_buy.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Is_this_product_fresh_or_new.gif" />
+    <AndroidResource Include="Resources\drawable\is_this_product_fresh_or_new.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Is_this_what_youre_looking_for.gif" />
+    <AndroidResource Include="Resources\drawable\is_this_what_youre_looking_for.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\J.gif" />
+    <AndroidResource Include="Resources\drawable\j.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\K.gif" />
+    <AndroidResource Include="Resources\drawable\k.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\L.gif" />
+    <AndroidResource Include="Resources\drawable\l.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Longs.gif" />
+    <AndroidResource Include="Resources\drawable\longs.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\M.gif" />
+    <AndroidResource Include="Resources\drawable\m.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Medium.gif" />
+    <AndroidResource Include="Resources\drawable\medium.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\N.gif" />
+    <AndroidResource Include="Resources\drawable\n.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\O.gif" />
+    <AndroidResource Include="Resources\drawable\o.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\orange.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\P.gif" />
+    <AndroidResource Include="Resources\drawable\p.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\please.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Q.gif" />
+    <AndroidResource Include="Resources\drawable\q.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\R.gif" />
+    <AndroidResource Include="Resources\drawable\r.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\red.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\S.gif" />
+    <AndroidResource Include="Resources\drawable\s.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Shorts.gif" />
+    <AndroidResource Include="Resources\drawable\shorts.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\SIGNTITIK_LOGO.png" />
+    <AndroidResource Include="Resources\drawable\signtitik_logo.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\size.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Small.gif" />
+    <AndroidResource Include="Resources\drawable\small.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Sorry_we_cant_accept_cash_yet_We_don_t_have_any_change.gif" />
+    <AndroidResource Include="Resources\drawable\sorry_we_cant_accept_cash_yet_we_don_t_have_any_change.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Sorry_we_dont_have_this_is_in_our_store.gif" />
+    <AndroidResource Include="Resources\drawable\sorry_we_dont_have_this_is_in_our_store.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\T.gif" />
+    <AndroidResource Include="Resources\drawable\t.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Temperature.gif" />
+    <AndroidResource Include="Resources\drawable\temperature.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\thank_you.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\The_money_you_gave_is_not_enough.gif" />
+    <AndroidResource Include="Resources\drawable\the_money_you_gave_is_not_enough.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\This_is_too_expensive_Can_you_lower_the_price_a_little_bit.gif" />
+    <AndroidResource Include="Resources\drawable\this_is_too_expensive_can_you_lower_the_price_a_little_bit.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\This_product_is_fresh.gif" />
+    <AndroidResource Include="Resources\drawable\this_product_is_fresh.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Try_checking_the_other_stores.gif" />
+    <AndroidResource Include="Resources\drawable\try_checking_the_other_stores.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\U.gif" />
+    <AndroidResource Include="Resources\drawable\u.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\V.gif" />
+    <AndroidResource Include="Resources\drawable\v.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\violet.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\W.gif" />
+    <AndroidResource Include="Resources\drawable\w.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\What_are_you_looking_for.gif" />
+    <AndroidResource Include="Resources\drawable\what_are_you_looking_for.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\white.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\X.gif" />
+    <AndroidResource Include="Resources\drawable\x.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Y.gif" />
+    <AndroidResource Include="Resources\drawable\y.gif" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\yellow.gif" />
@@ -379,25 +394,10 @@
     <AndroidResource Include="Resources\drawable\youre_welcome.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Z.gif" />
+    <AndroidResource Include="Resources\drawable\z.gif" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\A.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-mdpi\splashscreen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-hdpi\splashscreen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xhdpi\splashscreen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxhdpi\splashscreen.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\drawable-xxxhdpi\splashscreen.png" />
+    <AndroidResource Include="Resources\drawable\a.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
