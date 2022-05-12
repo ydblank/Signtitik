@@ -19,6 +19,7 @@ namespace Signtitik
         private async void LandingButtonClicked(object sender, EventArgs e)
         {
             Button button = sender as Button;
+            GlobalData.Identity = button.ClassId;
             MenuPage menuPage = new MenuPage();
             await Navigation.PushModalAsync(menuPage);
         }

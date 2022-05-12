@@ -42,11 +42,11 @@
                         <TapGestureRecognizer Tapped="ItemTapped"/>
                     </StackLayout.GestureRecognizers>
                 </StackLayout>
-                <StackLayout Grid.Column="1" Grid.Row="1" ClassId="Numbers">
+                <StackLayout Grid.Column="1" Grid.Row="1" ClassId="Alphabet">
                     <Frame BackgroundColor="Gray">
                         <Image HeightRequest="80" Aspect="AspectFill"/>
                     </Frame>
-                    <Label Text="NUMBERS" HorizontalOptions="CenterAndExpand"/>
+                    <Label Text="ALPHABET" HorizontalOptions="CenterAndExpand"/>
                     <StackLayout.GestureRecognizers>
                         <TapGestureRecognizer Tapped="ItemTapped"/>
                     </StackLayout.GestureRecognizers>
