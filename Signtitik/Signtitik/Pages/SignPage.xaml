@@ -4,7 +4,13 @@
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="Signtitik.Pages.SignPage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Margin="10">
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White">
+            <Frame Padding="10" CornerRadius="5" HasShadow="True">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                    <ImageButton Source="ic_arrow_back" Clicked="ImageButton_Clicked"  HorizontalOptions="StartAndExpand" BackgroundColor="Transparent" />
+                    <Image Source="logo_sign" HorizontalOptions="End" HeightRequest="47"/>
+                </StackLayout>
+            </Frame>
             <ffimageloading:CachedImage Source="{Binding Gif}" Aspect="AspectFill" WidthRequest="{Binding Converter={StaticResource scale}, ConverterParameter='width=300'}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=300'}"/>
             <Label Text="{Binding Name}" FontSize="24" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>

@@ -18,6 +18,9 @@ namespace Signtitik.Pages
             InitializeComponent();
 		}
 
-
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopModalAsync(true);
+        }
     }
 }
