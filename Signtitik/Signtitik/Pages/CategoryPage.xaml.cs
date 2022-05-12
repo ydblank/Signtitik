@@ -31,5 +31,10 @@ namespace Signtitik.Pages
                 await Navigation.PushModalAsync(signPage);
             };
         }
+
+        private async void ImageButton_Clicked(object sender, EventArgs e)
+        {
+             await Navigation.PopModalAsync(true);
+        }
     }
 }
