@@ -18,7 +18,7 @@ namespace Signtitik.Pages
         public CategoryPage(string category)
         {
             InitializeComponent();
-            if (category.Equals("Phrase"))
+            if (category.Equals("Phrases"))
                 category += GlobalData.Identity;
             signList = new ObservableCollection<SignModel>(DataClass.signList.Where(s => s.Category != null && s.Category.Equals(category)).ToList());
             categoryListView.ItemsSource = signList;
