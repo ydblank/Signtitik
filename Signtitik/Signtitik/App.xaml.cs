@@ -2,6 +2,7 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+[assembly: ExportFont("feather_bold_by_typicalbro44_dee263c.ttf", Alias = "Feather")]
 namespace Signtitik
 {
     public partial class App : Application

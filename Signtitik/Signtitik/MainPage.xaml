@@ -3,16 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Signtitik.MainPage">
 
+    <StackLayout BackgroundColor="White">
     <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Label Text="SIGNTITIK" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" FontSize="48"/>
-        <StackLayout Grid.Row="1">
-            <Button Text="Seller" Clicked="LandingButtonClicked" WidthRequest="256" HorizontalOptions="CenterAndExpand"/>
-            <Button Text="Buyer" Clicked="LandingButtonClicked" WidthRequest="256" HorizontalOptions="CenterAndExpand"/>
+        <Frame BackgroundColor="Transparent" Padding="12,24,12,0" CornerRadius="0">
+            <Image x:Name="Logo" Source="logo_homescreen" Aspect="AspectFit" WidthRequest="240"></Image>
+        </Frame>
+            <StackLayout Grid.Row="1">
+                <Button Text="Seller" FontFamily="Feather" Clicked="LandingButtonClicked" WidthRequest="256" HeightRequest="68" Margin="10,10" BackgroundColor="#232620"  TextColor="White" HorizontalOptions="CenterAndExpand"/>
+
+                <Button Text="Buyer" FontFamily="Feather" Clicked="LandingButtonClicked" WidthRequest="256" HeightRequest="68" Margin="10,10" BackgroundColor="#ED335F" TextColor="White" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </Grid>
-
+</StackLayout>
 </ContentPage>
