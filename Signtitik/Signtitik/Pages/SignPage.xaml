@@ -4,15 +4,17 @@
              xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
              x:Class="Signtitik.Pages.SignPage">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="White">
+        <StackLayout VerticalOptions="Start" HorizontalOptions="CenterAndExpand" BackgroundColor="White">
             <Frame Padding="10" CornerRadius="5" HasShadow="True">
-                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" BackgroundColor="White">
                     <ImageButton Source="ic_arrow_back" Clicked="ImageButton_Clicked"  HorizontalOptions="StartAndExpand" BackgroundColor="Transparent" />
                     <Image Source="logo_sign" HorizontalOptions="End" HeightRequest="47"/>
                 </StackLayout>
             </Frame>
-            <ffimageloading:CachedImage Source="{Binding Gif}" Aspect="AspectFill" WidthRequest="{Binding Converter={StaticResource scale}, ConverterParameter='width=300'}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=300'}"/>
-            <Label Text="{Binding Name}" FontSize="24" HorizontalOptions="CenterAndExpand"/>
+            <ffimageloading:CachedImage Margin="0, 40, 0, 10" Source="{Binding Gif}" Aspect="AspectFill" WidthRequest="{Binding Converter={StaticResource scale}, ConverterParameter='width=300'}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=300'}"/>
+            <Frame HasShadow="False" BackgroundColor="White" Padding="0, 0, 0, 200">
+            <Label Text="{Binding Name}" FontSize="24" TextColor="Black" HorizontalOptions="CenterAndExpand"/>
+            </Frame>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

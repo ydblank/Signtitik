@@ -10,13 +10,13 @@
                     <Image Source="logo_sign" HorizontalOptions="End" HeightRequest="47"/>
                 </StackLayout>
             </Frame>
-            <ListView x:Name="categoryListView" SeparatorColor="Transparent" SelectionMode="None">
+            <ListView x:Name="categoryListView" SeparatorColor="Transparent" SelectionMode="None" HasUnevenRows="True">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame Padding="0" BorderColor="Black" Margin="0,5">
-                                <StackLayout Orientation="Horizontal" Padding="20,0">
-                                    <Label Text="{Binding Name}" FontSize="18"/>
+                            <Frame Padding="10" BackgroundColor="white" BorderColor="Black" Margin="40,5">
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="20,0">
+                                    <Label TextColor="Black" Text="{Binding Name}" FontSize="30"/>
                                 </StackLayout>
                             </Frame>
                         </ViewCell>

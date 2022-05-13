@@ -21,7 +21,7 @@ namespace Signtitik
             Button button = sender as Button;
             GlobalData.Identity = button.ClassId;
             MenuPage menuPage = new MenuPage();
-            await Navigation.PushModalAsync(menuPage);
+            await Navigation.PushModalAsync(menuPage, false);
         }
     }
 }

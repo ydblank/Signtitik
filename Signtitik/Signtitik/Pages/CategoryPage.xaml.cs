@@ -21,6 +21,9 @@ namespace Signtitik.Pages
             if (category.Equals("Phrases"))
                 category += GlobalData.Identity;
             signList = new ObservableCollection<SignModel>(DataClass.signList.Where(s => s.Category != null && s.Category.Equals(category)).ToList());
+
+            
+
             categoryListView.ItemsSource = signList;
 
             categoryListView.ItemTapped += async (object sender, ItemTappedEventArgs e) =>
@@ -28,13 +31,13 @@ namespace Signtitik.Pages
                 var sign = (SignModel)e.Item;
                 SignPage signPage = new SignPage();
                 signPage.BindingContext = sign;
-                await Navigation.PushModalAsync(signPage);
+                await Navigation.PushModalAsync(signPage, false);
             };
         }
 
         private async void ImageButton_Clicked(object sender, EventArgs e)
         {
-             await Navigation.PopModalAsync(true);
+             await Navigation.PopModalAsync(false);
         }
     }
 }

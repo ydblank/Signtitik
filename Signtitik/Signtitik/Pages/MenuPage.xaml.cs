@@ -19,14 +19,14 @@ namespace Signtitik.Pages
 
         private async void BackButtonClicked(object sender, EventArgs e)
         {
-            await Navigation.PopModalAsync(true);
+            await Navigation.PopModalAsync(false);
         }
 
         private async void ItemTapped(object sender, EventArgs e)
         {
             StackLayout stackLayout = sender as StackLayout;
             CategoryPage categoryPage = new CategoryPage(stackLayout.ClassId);
-            await Navigation.PushModalAsync(categoryPage);
+            await Navigation.PushModalAsync(categoryPage,false);
         }
     }
 }
