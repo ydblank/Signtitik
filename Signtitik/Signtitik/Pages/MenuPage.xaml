@@ -10,6 +10,9 @@
                     <Image Source="logo_sign" HorizontalOptions="End" HeightRequest="47"/>
                 </StackLayout>
             </Frame>
+            <StackLayout HorizontalOptions="Center">
+                <Label Text="Category" FontSize="35" FontFamily="Feather" TextColor="Black" />
+            </StackLayout>
             <StackLayout Margin="20,20,20,20">
                 <Grid VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                     <Grid.ColumnDefinitions>
@@ -21,9 +24,12 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition Height="auto"/>
                     </Grid.RowDefinitions>
-                    <StackLayout ClassId="Colors" Margin="10">
-                        <Frame BackgroundColor="Gray" CornerRadius="5">
-                            <Image HeightRequest="80" Aspect="AspectFill"/>
+                    
+                    <StackLayout ClassId="Colors" Margin="5">
+                        <Frame CornerRadius="10" BackgroundColor="Black" Padding="10">
+                            <Frame BackgroundColor="White" >
+                                <Image HeightRequest="80" Aspect="AspectFit" Source="colors_icon"/>
+                            </Frame>
                         </Frame>
                         <Label Text="COLORS" TextColor="Black" FontAttributes="Bold" HorizontalOptions="CenterAndExpand"/>
                         <StackLayout.GestureRecognizers>
@@ -31,8 +37,10 @@
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Grid.Column="1" ClassId="Temperature" Margin="10">
-                        <Frame BackgroundColor="Gray" CornerRadius="5">
-                            <Image HeightRequest="80" Aspect="AspectFill"/>
+                        <Frame CornerRadius="10" BackgroundColor="Black" Padding="10">
+                            <Frame BackgroundColor="White">
+                                <Image HeightRequest="80" Aspect="AspectFit" Source="temperature_icon"/>
+                            </Frame>
                         </Frame>
                         <Label Text="TEMPERATURE"  TextColor="Black" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand"/>
                         <StackLayout.GestureRecognizers>
@@ -40,8 +48,10 @@
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Grid.Row="1" ClassId="Size"  Margin="10">
-                        <Frame BackgroundColor="Gray" CornerRadius="5">
-                            <Image HeightRequest="80" Aspect="AspectFill"/>
+                        <Frame CornerRadius="10" BackgroundColor="Black" Padding="10">
+                            <Frame BackgroundColor="White">
+                                <Image HeightRequest="80" Aspect="AspectFit" Source="size_icon"/>
+                            </Frame>
                         </Frame>
                         <Label Text="SIZE" TextColor="Black" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand"/>
                         <StackLayout.GestureRecognizers>
@@ -49,8 +59,10 @@
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Grid.Column="1" Grid.Row="1" ClassId="Numbers"  Margin="10">
-                        <Frame BackgroundColor="Gray" CornerRadius="5">
-                            <Image HeightRequest="80" Aspect="AspectFill"/>
+                        <Frame CornerRadius="10" BackgroundColor="Black" Padding="10">
+                            <Frame BackgroundColor="White">
+                                <Image HeightRequest="80" Aspect="AspectFit" Source="alphabets_icon"/>
+                            </Frame>
                         </Frame>
                         <Label Text="ALPHABETS"  TextColor="Black" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand"/>
                         <StackLayout.GestureRecognizers>
@@ -58,8 +70,10 @@
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Grid.Row="2" ClassId="Greetings"  Margin="10">
-                        <Frame BackgroundColor="Gray" CornerRadius="5">
-                            <Image HeightRequest="80" Aspect="AspectFill"/>
+                        <Frame CornerRadius="10" BackgroundColor="Black" Padding="10">
+                            <Frame BackgroundColor="White">
+                                <Image HeightRequest="80" Aspect="AspectFit" Source="greetings_icon"/>
+                            </Frame>
                         </Frame>
                         <Label Text="GREETINGS"  TextColor="Black" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand"/>
                         <StackLayout.GestureRecognizers>
@@ -67,8 +81,10 @@
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
                     <StackLayout Grid.Column="1" Grid.Row="2" ClassId="Phrases"  Margin="10">
-                        <Frame BackgroundColor="Gray"  CornerRadius="5">
-                            <Image HeightRequest="80" Aspect="AspectFill"/>
+                        <Frame CornerRadius="10" BackgroundColor="Black" Padding="10">
+                            <Frame BackgroundColor="White">
+                                <Image HeightRequest="80" Aspect="AspectFit" Source="phrases_icon"/>
+                            </Frame>
                         </Frame>
                         <Label Text="OTHER PHRASES"  TextColor="Black" FontAttributes="Bold"  HorizontalOptions="CenterAndExpand"/>
                         <StackLayout.GestureRecognizers>
