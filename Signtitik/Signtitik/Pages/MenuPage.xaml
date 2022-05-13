@@ -58,7 +58,7 @@
                             <TapGestureRecognizer Tapped="ItemTapped"/>
                         </StackLayout.GestureRecognizers>
                     </StackLayout>
-                    <StackLayout Grid.Column="1" Grid.Row="1" ClassId="Numbers"  Margin="10">
+                    <StackLayout Grid.Column="1" Grid.Row="1" ClassId="Alphabet"  Margin="10">
                         <Frame CornerRadius="10" BackgroundColor="Black" Padding="10">
                             <Frame BackgroundColor="White">
                                 <Image HeightRequest="80" Aspect="AspectFit" Source="alphabets_icon"/>

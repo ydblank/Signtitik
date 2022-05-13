@@ -13,9 +13,9 @@
             <Image x:Name="Logo" Source="logo_homescreen" Aspect="AspectFit" WidthRequest="240"></Image>
         </Frame>
             <StackLayout Grid.Row="1">
-                <Button Text="Seller" FontFamily="Feather" Clicked="LandingButtonClicked" WidthRequest="256" HeightRequest="68" Margin="10,10" BackgroundColor="#232620"  TextColor="White" HorizontalOptions="CenterAndExpand"/>
+                <Button Text="Seller" ClassId="Seller" FontFamily="Feather" Clicked="LandingButtonClicked" WidthRequest="256" HeightRequest="68" Margin="10,10" BackgroundColor="#232620"  TextColor="White" HorizontalOptions="CenterAndExpand"/>
 
-                <Button Text="Buyer" FontFamily="Feather" Clicked="LandingButtonClicked" WidthRequest="256" HeightRequest="68" Margin="10,10" BackgroundColor="#ED335F" TextColor="White" HorizontalOptions="CenterAndExpand"/>
+                <Button Text="Buyer" ClassId="Seller" FontFamily="Feather" Clicked="LandingButtonClicked" WidthRequest="256" HeightRequest="68" Margin="10,10" BackgroundColor="#ED335F" TextColor="White" HorizontalOptions="CenterAndExpand"/>
         </StackLayout>
     </Grid>
 </StackLayout>
