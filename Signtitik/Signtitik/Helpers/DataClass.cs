@@ -75,7 +75,7 @@ namespace Signtitik.Helpers
 
             // Other Phrases Category - Seller
             new SignModel() { Name = "What are you looking for?", Category = "PhrasesSeller", Gif = "what_are_you_looking_for.gif", Icon = "" },
-            new SignModel() { Name = "Try checking the other stores?", Category = "PhrasesSeller", Gif = "try_checking_the_other_stores.gif", Icon = "" },
+            new SignModel() { Name = "Try checking the other stores.", Category = "PhrasesSeller", Gif = "try_checking_the_other_stores.gif", Icon = "" },
             new SignModel() { Name = "Do you still want to buy this?", Category = "PhrasesSeller", Gif = "do_you_still_want_to_buy_this.gif", Icon = "" },
             new SignModel() { Name = "Is this all you want to buy?", Category = "PhrasesSeller", Gif = "is_this_all_you_want_to_buy.gif", Icon = "" },
             new SignModel() { Name = "Sorry we can't accept cash yet. We don't have any change.", Category = "PhrasesSeller", Gif = "sorry_we_cant_accept_cash_yet_we_don_t_have_any_change.gif", Icon = "" },
@@ -83,9 +83,9 @@ namespace Signtitik.Helpers
             new SignModel() { Name = "This product is fresh.", Category = "PhrasesSeller", Gif = "this_product_is_fresh.gif", Icon = "" },
             new SignModel() { Name = "Is this what you're looking for?", Category = "PhrasesSeller", Gif = "is_this_what_youre_looking_for", Icon = "" },
             new SignModel() { Name = "Did you bring an ecobag?", Category = "PhrasesSeller", Gif = "did_you_bring_your_own_ecobag", Icon = "" },
-
+            new SignModel() { Name = "The money you gave is not enough.", Category = "PhrasesSeller", Gif = "the_money_you_gave_is_not_enough.gif", Icon = "" },
             // Other Phrases Category - Buyer
-            new SignModel() { Name = "The money you gave is not enough", Category = "PhrasesBuyer", Gif = "the_money_you_gave_is_not_enough.gif", Icon = "" },
+
             new SignModel() { Name = "Do you have this product?", Category = "PhrasesBuyer", Gif = "do_you_have_this_product.gif", Icon = "" },
             new SignModel() { Name = "Are there any variations for this product?", Category = "PhrasesBuyer", Gif = "are_there_any_variations_for_this_product.gif", Icon = "" },
             new SignModel() { Name = "In which store can I find this product?", Category = "PhrasesBuyer", Gif = "in_which_store_can_i_find_this_product.gif", Icon = "" },
