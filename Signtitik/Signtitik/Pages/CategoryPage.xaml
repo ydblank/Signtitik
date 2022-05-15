@@ -11,19 +11,15 @@
                     <Image Source="logo_sign" HorizontalOptions="End" HeightRequest="47"/>
                 </StackLayout>
             </Frame>
-            <ListView x:Name="categoryListView" SeparatorColor="Transparent" SelectionMode="None" HasUnevenRows="True">
+            <ListView x:Name="categoryListView" SeparatorColor="Transparent" SelectionMode="None" HasUnevenRows="True" CachingStrategy="RecycleElement">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <Frame Padding="10" BackgroundColor="white" BorderColor="Black" Margin="40,5">
-                                <Grid Padding="20,0">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="*"/>
-                                        <ColumnDefinition Width="*"/>
-                                    </Grid.ColumnDefinitions>
-                                    <ffimageloading:CachedImage Source="{Binding Icon}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=50'}"/>
-                                    <Label TextColor="Black" Text="{Binding Name}" FontSize="30" Grid.Column="1"/>
-                                </Grid>
+                                <StackLayout Orientation="Horizontal" Padding="20,0">
+                                    <ffimageloading:CachedImage Source="{Binding Icon}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=50'}" Grid.Column="0" HorizontalOptions="Start"/>
+                                    <Label TextColor="Black" Text="{Binding Name}" FontSize="30" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
+                                </StackLayout>
                             </Frame>
                         </ViewCell>
                     </DataTemplate>
