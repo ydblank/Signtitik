@@ -16,10 +16,28 @@
                     <DataTemplate>
                         <ViewCell>
                             <Frame Padding="10" BackgroundColor="white" BorderColor="Black" Margin="40,5">
-                                <StackLayout Orientation="Horizontal" Padding="20,0">
-                                    <ffimageloading:CachedImage Source="{Binding Icon}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=50'}" Grid.Column="0" HorizontalOptions="Start"/>
-                                    <Label TextColor="Black" Text="{Binding Name}" FontSize="30" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="CenterAndExpand"/>
-                                </StackLayout>
+                                <Grid Padding="20,0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="2*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <ffimageloading:CachedImage Source="{Binding Icon}" Grid.Column="0" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=50'}" HorizontalOptions="Start" DownsampleToViewSize="True"/>
+                                    <Label TextColor="Black" Text="{Binding Name}" FontSize="30" VerticalOptions="Center">
+                                        <Label.Style>
+                                            <Style TargetType="{x:Type Label}">
+                                                <Setter Property="Grid.Column" Value="1"/>
+                                                <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger TargetType="{x:Type Label}" Binding="{Binding Icon}" Value="">
+                                                        <Setter Property="Grid.Column" Value="0"/>
+                                                        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                                                        <Setter Property="Grid.ColumnSpan" Value="2"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Label.Style>
+                                    </Label>
+                                </Grid>
                             </Frame>
                         </ViewCell>
                     </DataTemplate>

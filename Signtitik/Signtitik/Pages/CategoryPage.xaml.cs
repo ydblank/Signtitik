@@ -1,4 +1,5 @@
-﻿using Signtitik.Helpers;
+﻿using FFImageLoading;
+using Signtitik.Helpers;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -22,8 +23,6 @@ namespace Signtitik.Pages
                 category += GlobalData.Identity;
             signList = new ObservableCollection<SignModel>(DataClass.signList.Where(s => s.Category != null && s.Category.Equals(category)).ToList());
 
-            
-
             categoryListView.ItemsSource = signList;
 
             categoryListView.ItemTapped += async (object sender, ItemTappedEventArgs e) =>
@@ -39,5 +38,7 @@ namespace Signtitik.Pages
         {
              await Navigation.PopModalAsync(false);
         }
+
+        
     }
 }
