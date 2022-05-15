@@ -38,29 +38,29 @@ namespace Signtitik.Helpers
             new SignModel() { Name = "Z", Category = "Alphabet", Gif = "z.gif", Icon = "" },
 
             // Colors Category
-            new SignModel() { Name = "Colors", Category = "Colors",  Gif = "colors.gif", Icon = "" },
-            new SignModel() { Name = "Red", Category = "Colors", Gif = "red.gif", Icon = "" },
-            new SignModel() { Name = "Yellow", Category = "Colors",  Gif = "yellow.gif", Icon = "" },
-            new SignModel() { Name = "Blue", Category = "Colors",  Gif = "blue.gif", Icon = "" },
-            new SignModel() { Name = "Orange", Category = "Colors",  Gif = "orange.gif", Icon = "" },
-            new SignModel() { Name = "Green", Category = "Colors",  Gif = "green.gif", Icon = "" },
-            new SignModel() { Name = "Brown", Category = "Colors",  Gif = "brown.gif", Icon = "" },
-            new SignModel() { Name = "Violet", Category = "Colors",  Gif = "violet.gif", Icon = "" },
-            new SignModel() { Name = "Black", Category = "Colors",  Gif = "black.gif", Icon = "" },
-            new SignModel() { Name = "White", Category = "Colors",  Gif = "white.gif", Icon = "" },
+            new SignModel() { Name = "Colors", Category = "Colors",  Gif = "colors.gif", Icon = "colors_icon.png" },
+            new SignModel() { Name = "Red", Category = "Colors", Gif = "red.gif", Icon = "img_red.png" },
+            new SignModel() { Name = "Yellow", Category = "Colors",  Gif = "yellow.gif", Icon = "img_yellow.png" },
+            new SignModel() { Name = "Blue", Category = "Colors",  Gif = "blue.gif", Icon = "img_blue.png" },
+            new SignModel() { Name = "Orange", Category = "Colors",  Gif = "orange.gif", Icon = "img_orange.png" },
+            new SignModel() { Name = "Green", Category = "Colors",  Gif = "green.gif", Icon = "img_green.png" },
+            new SignModel() { Name = "Brown", Category = "Colors",  Gif = "brown.gif", Icon = "img_brown.png" },
+            new SignModel() { Name = "Violet", Category = "Colors",  Gif = "violet.gif", Icon = "img_violet.png" },
+            new SignModel() { Name = "Black", Category = "Colors",  Gif = "black.gif", Icon = "img_black.png" },
+            new SignModel() { Name = "White", Category = "Colors",  Gif = "white.gif", Icon = "img_white.png" },
 
             // Temperature Category
-            new SignModel() { Name = "Temperature", Category = "Temperature", Gif = "temperature.gif", Icon = ""},
-            new SignModel() { Name = "Cold", Category = "Temperature", Gif = "cold.gif", Icon = ""},
-            new SignModel() { Name = "Hot", Category = "Temperature", Gif = "hot.gif", Icon = ""},
+            new SignModel() { Name = "Temperature", Category = "Temperature", Gif = "temperature.gif", Icon = "temperature_icon.png"},
+            new SignModel() { Name = "Cold", Category = "Temperature", Gif = "cold.gif", Icon = "img_cold.png"},
+            new SignModel() { Name = "Hot", Category = "Temperature", Gif = "hot.gif", Icon = "img_hot.png"},
 
             // Size Category
-            new SignModel() { Name = "Size", Category = "Size", Gif = "size.gif", Icon = ""},
-            new SignModel() { Name = "Big", Category = "Size", Gif = "big.gif", Icon = "" },
-            new SignModel() { Name = "Medium", Category = "Size", Gif = "medium.gif", Icon = ""},
-            new SignModel() { Name = "Small", Category = "Size", Gif = "small.gif", Icon = ""},
-            new SignModel() { Name = "Long", Category = "Size", Gif = "longs.gif", Icon = ""},
-            new SignModel() { Name = "Short", Category = "Size", Gif = "shorts.gif", Icon = ""},
+            new SignModel() { Name = "Size", Category = "Size", Gif = "size.gif", Icon = "size_icon.png"},
+            new SignModel() { Name = "Big", Category = "Size", Gif = "big.gif", Icon = "img_big.png" },
+            new SignModel() { Name = "Medium", Category = "Size", Gif = "medium.gif", Icon = "img_medium.png"},
+            new SignModel() { Name = "Small", Category = "Size", Gif = "small.gif", Icon = "img_small.png"},
+            new SignModel() { Name = "Long", Category = "Size", Gif = "longs.gif", Icon = "img_long.png"},
+            new SignModel() { Name = "Short", Category = "Size", Gif = "shorts.gif", Icon = "img_short.png"},
 
             // Greetings Category
             new SignModel() { Name = "Hi!", Category = "Greetings", Gif = "hi.gif", Icon = "" },
