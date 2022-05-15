@@ -14,7 +14,7 @@ namespace Signtitik.Droid
 {
 	
 	
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.2.0.155")]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Android.Build.Tasks", "12.2.4.160")]
 	public partial class Resource
 	{
 		
@@ -16886,88 +16886,91 @@ namespace Signtitik.Droid
 			public const int signtitik_logo = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int size = 2131165401;
+			public const int signtitik_logo_transparent = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int size_icon = 2131165402;
+			public const int size = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int small = 2131165403;
+			public const int size_icon = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int sorry_we_cant_accept_cash_yet_we_don_t_have_any_change = 2131165404;
+			public const int small = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int sorry_we_dont_have_this_is_in_our_store = 2131165405;
+			public const int sorry_we_cant_accept_cash_yet_we_don_t_have_any_change = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int splashscreen = 2131165406;
+			public const int sorry_we_dont_have_this_is_in_our_store = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int t = 2131165407;
+			public const int splashscreen = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int temperature = 2131165408;
+			public const int t = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int temperature_icon = 2131165409;
+			public const int temperature = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int test_custom_background = 2131165410;
+			public const int temperature_icon = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int thank_you = 2131165411;
+			public const int test_custom_background = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int the_money_you_gave_is_not_enough = 2131165412;
+			public const int thank_you = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int this_is_too_expensive_can_you_lower_the_price_a_little_bit = 2131165413;
+			public const int the_money_you_gave_is_not_enough = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int this_product_is_fresh = 2131165414;
+			public const int this_is_too_expensive_can_you_lower_the_price_a_little_bit = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int tooltip_frame_dark = 2131165415;
+			public const int this_product_is_fresh = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int tooltip_frame_light = 2131165416;
+			public const int tooltip_frame_dark = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int try_checking_the_other_stores = 2131165417;
+			public const int tooltip_frame_light = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int u = 2131165418;
+			public const int try_checking_the_other_stores = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int v = 2131165419;
+			public const int u = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int violet = 2131165420;
+			public const int v = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int w = 2131165421;
+			public const int violet = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int what_are_you_looking_for = 2131165422;
+			public const int w = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int white = 2131165423;
+			public const int what_are_you_looking_for = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int x = 2131165424;
+			public const int white = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int y = 2131165425;
+			public const int x = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int yellow = 2131165426;
+			public const int y = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int youre_welcome = 2131165427;
+			public const int yellow = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int z = 2131165428;
+			public const int youre_welcome = 2131165428;
+			
+			// aapt resource value: 0x7F0700F5
+			public const int z = 2131165429;
 			
 			static Drawable()
 			{

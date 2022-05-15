@@ -23,5 +23,11 @@ namespace Signtitik
             MenuPage menuPage = new MenuPage();
             await Navigation.PushModalAsync(menuPage, false);
         }
+
+        private async void AboutButtonClicked(object sender, EventArgs e)
+        {
+            AboutPage aboutPage = new AboutPage();
+            await Navigation.PushModalAsync(aboutPage, false);
+        }
     }
 }
