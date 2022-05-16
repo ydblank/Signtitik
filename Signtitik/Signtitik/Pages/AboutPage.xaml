@@ -12,14 +12,18 @@
                     <Image Source="logo_sign" HorizontalOptions="End" HeightRequest="47"/>
                 </StackLayout>
             </Frame>
-
-            <Label Text="About Us!"
+            <ScrollView>
+                <StackLayout>
+                    <Label Text="About Us!"
                 HorizontalOptions="CenterAndExpand" Padding="0,50,0,0" FontSize="30" TextColor="Black" FontFamily="Feather"/>
-            <Label Text="SIGNTITIK is an android application that translates texts into Filipino Sign Language (FSL).The application contains the common words and phrases usually heard in the market and its equivalent Filipino Sign Language. &#x0a;  &#x0a; 
+                    <Label Text="SIGNTITIK is an android application that translates texts into Filipino Sign Language (FSL).The application contains the common words and phrases usually heard in the market and its equivalent Filipino Sign Language. &#x0a;  &#x0a; 
 It aims to break the communication barrier between the deaf-mute citizens and people who are able to hear and talk. By using SIGNTITIK, deaf-mute citizens are able to communicate better with vendors even without a companion who is an FSL literate. &#x0a;  &#x0a; 
-SIGNTITIK was designed by Siquijor Provincial Science High School Grade-12 students, namely: Ericah Claire P. Angot, Frezha Mae O. Maglinte, Kylemaxinne B. Panzo, and Aira Zabrina T. Rubio. The app was then programmed by Jose Glen A. Samson, Jade Andrie T. Rosales, and Jomar M. Leaño"
+SIGNTITIK was designed by Siquijor Provincial Science High School Grade-12 students, namely: Ericah Claire P. Angot, Frezha Mae O. Maglinte, Kylemaxinne B. Panzo, and Aira Zabrina T. Rubio. The app was done in assistance with Jose Glen A. Samson, Jade Andrie T. Rosales, and Jomar M. Leaño"
                 HorizontalOptions="CenterAndExpand" FontSize="15" FontFamily="Feather" TextColor="#464646" Padding="30,0,30,0" HorizontalTextAlignment="Center"/>
-            <Image Source="signtitik_logo_transparent.png" HorizontalOptions="Center" WidthRequest="200"/>
+                    <Image Source="signtitik_logo_transparent.png" HorizontalOptions="Center" WidthRequest="200"/>
+                </StackLayout>
+            </ScrollView>
+            
             
             
         </StackLayout>
