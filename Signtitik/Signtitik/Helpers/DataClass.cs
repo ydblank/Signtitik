@@ -71,7 +71,7 @@ namespace Signtitik.Helpers
             new SignModel() { Name = "Good Evening!", Category = "Greetings", Gif = "good_evening.gif", Icon = "" },
             new SignModel() { Name = "Please?", Category = "Greetings", Gif = "please.gif", Icon = "" },
             new SignModel() { Name = "Thank You!", Category = "Greetings", Gif = "thank_you.gif", Icon = "" },
-            new SignModel() { Name = "You're Welcome!", Category = "Greetings", Gif = "your_welcome.gif", Icon = "" },
+            new SignModel() { Name = "You're Welcome!", Category = "Greetings", Gif = "youre_welcome.gif", Icon = "" },
 
             // Other Phrases Category - Seller
             new SignModel() { Name = "What are you looking for?", Category = "PhrasesSeller", Gif = "what_are_you_looking_for.gif", Icon = "" },
@@ -94,8 +94,8 @@ namespace Signtitik.Helpers
             new SignModel() { Name = "Is this product fresh or new?", Category = "PhrasesBuyer", Gif = "is_this_product_fresh_or_new.gif", Icon = "" },
             new SignModel() { Name = "How much is this per kilo?", Category = "PhrasesBuyer", Gif = "how_much_is_this_per_kilo.gif", Icon = "" },
             new SignModel() { Name = "This is too expensive. Can you lower the price a little bit?", Category = "PhrasesBuyer", Gif = "this_is_too_expensive_can_you_lower_the_price_a_little_bit.gif", Icon = "" },
-            new SignModel() { Name = "Can you please put the things that bough inside the ecobag?", Category = "PhrasesBuyer", Gif = "can_you_please_put_the_things_that_i_bougth_inside_the_ecobag.gif", Icon = "" },
-            new SignModel() { Name = "How much does this product cost?", Category = "PhrasesBuyer", Gif = "how_much_does_this_prodcut_cost.gif", Icon = "" },
+            new SignModel() { Name = "Can you please put the things that I bought inside the ecobag?", Category = "PhrasesBuyer", Gif = "can_you_please_put_the_things_that_i_bought_inside_the_ecobag.gif", Icon = "" },
+            new SignModel() { Name = "How much does this product cost?", Category = "PhrasesBuyer", Gif = "how_much_does_this_product_cost.gif", Icon = "" },
 
         };
     }
